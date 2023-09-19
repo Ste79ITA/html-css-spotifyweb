@@ -4,6 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
+    <script
+      src="https://kit.fontawesome.com/6bbc3537db.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
-  <body></body>
+  <body class="debugg">
+    <main class="app">
+      <div class="main-app">
+        <div class="sidebar"></div>
+        <div class="viewport">
+          <div class="box"></div>
+        </div>
+      </div>
+      <div class="player-bar">
+        <div class="player-bar__left flex align-center">
+          <div class="left-buttons flex align-center">
+            <img class="song-playng-img" src="./img/sinister.jpeg" alt="" />
+            <div class="song-info flex justify-center">
+              <div class="artist">Sinister</div>
+              <div class="song-title">Brano Nome</div>
+            </div>
+            <div class="song-icons flex wrap">
+              <i class="fa-regular fa-heart" style="color: currentColor"></i>
+              <i class="fa-regular fa-folder" style="color: currentColor"></i>
+            </div>
+          </div>
+        </div>
+        <div class="player-bar__container flex align-center">
+          <div class="player-bar__buttons flex">
+            <ul class="bar-buttons flex align-center">
+              <li>
+                <i class="fa-solid fa-shuffle" style="color: currentColor"></i>
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-backward-step"
+                  style="color: currentColor"
+                ></i>
+              </li>
+              <li class="play-icon">
+                <i class="fa-solid fa-play" style="color: currentColor"></i>
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-forward-step"
+                  style="color: currentColor"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-rotate-right"
+                  style="color: currentColor"
+                ></i>
+              </li>
+            </ul>
+          </div>
+          <div class="player-bar__slider">
+            <div class="slider flex align-center justify-center">
+              <div>0.25</div>
+              <div class="slider-bar">
+                <div class="slider-progress">
+                  <div class="slider-handle"></div>
+                </div>
+              </div>
+              <div>4.35</div>
+            </div>
+          </div>
+        </div>
+        <div class="player-bar__right flex align-center">
+          <ul class="right-buttons flex align-center">
+            <li>
+              <i class="fa-solid fa-bars" style="color: currentColor"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-desktop" style="color: currentColor"></i>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-volume-high"
+                style="color: currentColor"
+              ></i>
+            </li>
+          </ul>
+          <div class="slider-bar-container">
+            <div class="slider-bar">
+              <div class="slider-progress">
+                <div class="slider-handle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
