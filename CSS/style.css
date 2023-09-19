@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* DEBUG */
+
+.debug [class^='container-'] {
+  border: 1px solid orangered;
+  padding: 10px;
+}
+
+.debug .row {
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+.debug [class*='col'] {
+  border: 1px solid greenyellow;
+  padding: 10px;
+  min-height: 200px;
+}
