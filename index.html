@@ -9,11 +9,35 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
   </head>
   <body class="debugg">
     <main class="app">
       <div class="main-app">
-        <div class="sidebar"></div>
+        <div class="sidebar flex column">
+          <div class="sidebar__container logo-small">
+            <img src="./img/logo-small.svg" alt="" />
+          </div>
+          <div class="sidebar__container logo">
+            <img src="./img/logo.svg" alt="" />
+          </div>
+          <div class="sidebar__container home flex column align-center">
+            <div class="home flex align-center">
+              <img class="home-icon" src="./img/home.svg" alt="" />
+              <span>Home</span>
+            </div>
+            <div class="search flex align-center">
+              <img class="home-icon" src="./img/search.svg" alt="" />
+              <span>Cerca</span>
+            </div>
+            <div class="library flex align-center">
+              <img class="home-icon" src="./img/libreria.svg" alt="" />
+              <span>La tua libreria</span>
+            </div>
+          </div>
+          <div class="sidebar__container playlist"></div>
+          <div class="sidebar__container user"></div>
+        </div>
         <div class="viewport">
           <div class="box"></div>
         </div>
