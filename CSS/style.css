@@ -166,6 +166,10 @@ a {
 
 /* SIDEBAR */
 
+.sidebar {
+  z-index: 1;
+}
+
 .sidebar__container {
   padding: 10px;
   color: var(--white);
@@ -264,6 +268,30 @@ span {
 
 .sidebar__container.user span {
   display: none;
+}
+
+/* VIEWPORT */
+
+/* TOP-BAR */
+
+.top-bar {
+  justify-content: end;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 90px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.upgrade {
+  color: var(--white);
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 999px;
+  line-height: 45px;
+  padding: 0 35px;
 }
 /* PLAYER BAR */
 
