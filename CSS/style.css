@@ -96,6 +96,7 @@ a {
   --grey-text: #282828;
   --time-bar-dark: #5a5a5a;
   --time-bar-light: #c1c1c1;
+  --sidebar-text-grey: #a3a3a3;
   --highlight: #adff30;
   --white: #ffffff;
   --black: #000000;
@@ -200,7 +201,28 @@ span {
 
 .search,
 .library {
-  color: var(--time-bar-dark);
+  color: var(--sidebar-text-grey);
+}
+
+/* PLAYLIST */
+
+.sidebar__container.playlist {
+  color: var(--sidebar-text-grey);
+  gap: 25px;
+  margin-top: 10px;
+  display: none;
+}
+
+.playlist-title {
+  color: var(--white);
+  margin-bottom: -15px;
+}
+
+.sidebar__container.playlist i {
+  background-color: var(--sidebar-text-grey);
+  color: var(--black);
+  padding: 11px;
+  font-size: 22px;
 }
 
 /* PLAYER BAR */
@@ -345,6 +367,10 @@ span {
 
   span {
     display: inline-block;
+  }
+
+  .sidebar__container.playlist {
+    display: flex;
   }
 }
 
