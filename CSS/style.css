@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -225,6 +225,46 @@ span {
   font-size: 22px;
 }
 
+/* USER */
+.sidebar__container.user {
+  color: var(--sidebar-text-grey);
+  gap: 8px;
+  padding: 10px 10px;
+}
+
+.app-install {
+  font-size: 13px;
+}
+.app-install i {
+  margin-right: 7px;
+}
+
+.app-install::after {
+  content: ' ';
+  display: inline-block;
+  background-color: var(--sidebar-text-grey);
+  height: 1px;
+  width: 100%;
+}
+
+.user {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-avatar {
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: #808080;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar__container.user span {
+  display: none;
+}
 /* PLAYER BAR */
 
 .player-bar__container {
@@ -342,6 +382,7 @@ span {
 
 /* Medium devices  */
 @media (min-width: 768px) {
+  /* SIDEBAR */
   .sidebar {
     width: var(--sidebar-width);
   }
@@ -371,6 +412,14 @@ span {
 
   .sidebar__container.playlist {
     display: flex;
+  }
+
+  .sidebar__container.user {
+    padding: 10px 20px;
+  }
+
+  .sidebar__container.user span {
+    display: inline-block;
   }
 }
 

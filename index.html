@@ -9,6 +9,12 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
   </head>
   <body class="debugg">
@@ -49,7 +55,16 @@
             <div class="playlist-item">Nome Playlist</div>
             <div class="playlist-item">Nome Playlist</div>
           </div>
-          <div class="sidebar__container user"></div>
+          <div class="sidebar__container user flex column">
+            <div class="app-install">
+              <i class="fa-regular fa-circle-down"></i>
+              <span>Installa app</span>
+            </div>
+            <div class="user flex align-center">
+              <img class="user-avatar" src="./img/profile.svg" alt="" />
+              <span>Stefano Nastri</span>
+            </div>
+          </div>
         </div>
         <div class="viewport">
           <div class="box"></div>
