@@ -43,7 +43,7 @@
           </div>
           <div class="sidebar__container playlist flex column">
             <h4 class="playlist-title">PLAYLIST</h4>
-            <div>
+            <div class="new-playlist">
               <i class="fa-solid fa-plus"></i>
               <span>Crea Playlist</span>
             </div>
@@ -56,7 +56,7 @@
             <div class="playlist-item">Nome Playlist</div>
           </div>
           <div class="sidebar__container user flex column">
-            <div class="app-install">
+            <div class="app-install flex column align-center">
               <i class="fa-regular fa-circle-down"></i>
               <span>Installa app</span>
             </div>
@@ -66,11 +66,34 @@
             </div>
           </div>
         </div>
-        <div class="viewport">
+        <div class="viewport flex column">
           <div class="top-bar flex align-center">
-            <div class="upgrade">EFFETTUA L'UPGRADE</div>
+            <div class="upgrade"><a href="#">EFFETTUA L'UPGRADE</a></div>
           </div>
-          <div class="box"></div>
+          <div class="nav">
+            <nav>
+              <ul class="nav-menu flex wrap justify-center">
+                <li class="nav-item selected">
+                  <a href="#">IN EVIDENZA</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">PODCAST</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">CLASSIFICHE</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">GENERI E MOOD</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">NUOVE USCITE</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#">SCOPRI</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
       <div class="player-bar">
@@ -82,8 +105,8 @@
               <div class="song-title">Brano Nome</div>
             </div>
             <div class="song-icons flex wrap">
-              <i class="fa-regular fa-heart" style="color: currentColor"></i>
-              <i class="fa-regular fa-folder" style="color: currentColor"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-folder"></i>
             </div>
           </div>
         </div>
