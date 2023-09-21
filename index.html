@@ -8,6 +8,11 @@
       src="https://kit.fontawesome.com/6bbc3537db.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true,
+      };
+    </script>
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,29 +75,131 @@
           <div class="top-bar flex align-center">
             <div class="upgrade"><a href="#">EFFETTUA L'UPGRADE</a></div>
           </div>
-          <div class="nav">
-            <nav>
-              <ul class="nav-menu flex wrap justify-center">
-                <li class="nav-item selected">
-                  <a href="#">IN EVIDENZA</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">PODCAST</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">CLASSIFICHE</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">GENERI E MOOD</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">NUOVE USCITE</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">SCOPRI</a>
-                </li>
-              </ul>
-            </nav>
+          <div class="main-content">
+            <div class="nav">
+              <nav>
+                <ul class="nav-menu flex wrap justify-center">
+                  <li class="nav-item selected">
+                    <a href="#">IN EVIDENZA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">PODCAST</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">CLASSIFICHE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">GENERI E MOOD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">NUOVE USCITE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">SCOPRI</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- music -->
+            <div class="row recently-played">
+              <div class="title">
+                <h2>Recently played</h2>
+              </div>
+              <div class="col flex">
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/metal_lifting.jpg" alt="" />
+                  </div>
+                  <h3 class="album-title">Heavy Metal</h3>
+                  <p class="album-subtitle">Subtitle</p>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/stranger.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">
+                    Stranger Things, Vol.1 (a NetfilxOriginal Series Soundtrack)
+                  </h3>
+                  <p class="album-subtitle">Kyle Dixon & Michael Stein</p>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/aquietplace.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">A quiet Place</h3>
+                  <p class="album-subtitle">Subtitle</p>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/split.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">Split</h3>
+                  <p class="album-subtitle">Subtitle</p>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/cure.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">A cure for wellness</h3>
+                  <p class="album-subtitle">Subtitle</p>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/sinister.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">Sinister</h3>
+                  <p class="album-subtitle">Subtitle</p>
+                </div>
+              </div>
+            </div>
+            <div class="row created for user">
+              <div class="title">
+                <h2>Creato per Stefano Nastri</h2>
+                <p class="album-subtitle">
+                  Più ascolti, più accurati saranno i suggerimenti.
+                </p>
+              </div>
+              <div class="col flex">
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/radar.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">Release Radar</h3>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img src="./img/mixdaily.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">Daily Mix 1</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row created for user">
+              <div class="title">
+                <h2>Artisti più popolari</h2>
+                <p class="album-subtitle">
+                  Più ascolti, più accurati saranno i suggerimenti.
+                </p>
+              </div>
+              <div class="col flex">
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img class="rounded-image" src="./img/youg.jpeg" alt="" />
+                  </div>
+                  <h3 class="album-title">Lana del Ray</h3>
+                </div>
+                <div class="album flex column align-center">
+                  <div class="album-cover">
+                    <img
+                      class="rounded-image"
+                      src="./img/einaudi.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h3 class="album-title">Ludovico Einaudi</h3>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
